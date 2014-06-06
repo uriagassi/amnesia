@@ -7,6 +7,8 @@
 #  0. You just DO WHAT THE FUCK YOU WANT TO.
 
 defmodule Amnesia do
+  require Record
+
   @doc false
   defmacro __using__(_opts) do
     quote do
@@ -292,8 +294,8 @@ defmodule Amnesia do
     result
   end
 
-  def result({ :aborted, { exception, stacktrace } }) when exception |> is_record do
-    raise Exception.normalize(exception), [], stacktrace
+  def result({ :aborted, { exception, stacktrace } }) when exception |> Record.record? do
+    raise Exception.normalize(exception, [], stacktrace)
   end
 
   def result({ :aborted, error }) do
