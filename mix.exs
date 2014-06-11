@@ -18,6 +18,6 @@ defmodule Amnesia.Mixfile do
   defp deps do
     [ { :datastructures, github: "TanYewWei/elixir-datastructures"},
       { :exquisite, github: "meh/exquisite" },
-      { :continuum, github: "d0rc/continuum", tag: "7bcefc5" } ]
+      { :continuum, github: "d0rc/continuum"} ]
   end
 end
