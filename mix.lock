@@ -1,3 +1,3 @@
 %{"continuum": {:git, "git://github.com/d0rc/continuum.git", "7bcefc5deb62cc1d978da4b8b0232d4170e6b6ef", []},
   "datastructures": {:git, "git://github.com/TanYewWei/elixir-datastructures.git", "956ff90617cbc753f7c0bcc667d8570875c2fa35", []},
-  "exquisite": {:git, "git://github.com/meh/exquisite.git", "beff7f389dd4016bffa0ec50b44d80efdd9070b1", [tag: "beff7f389dd4016bffa0ec50b44d80efdd9070b1"]}}
+  "exquisite": {:git, "git://github.com/meh/exquisite.git", "8b1420260178fdf50a21a9b020253719b0b373ff", [tag: "8b1420260178fdf50a21a9b020253719b0b373ff"]}}

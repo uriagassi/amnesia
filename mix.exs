@@ -17,7 +17,7 @@ defmodule Amnesia.Mixfile do
   # { :foobar, "0.1", git: "https://github.com/elixir-lang/foobar.git" }
   defp deps do
     [ { :datastructures, github: "TanYewWei/elixir-datastructures"},
-      { :exquisite, github: "meh/exquisite", tag: "beff7f389dd4016bffa0ec50b44d80efdd9070b1" },
+      { :exquisite, github: "meh/exquisite", tag: "8b1420260178fdf50a21a9b020253719b0b373ff" },
       { :continuum, github: "d0rc/continuum"} ]
   end
 end
